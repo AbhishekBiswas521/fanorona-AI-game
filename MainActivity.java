@@ -71,7 +71,7 @@ public class MainActivity extends ActionBarActivity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		//in here, you set view, start game, and arrange button
+		//Here, you set view, start game, and arrange button
 		setContentView(R.layout.fragment_main);
 		//GET PLAYER SETTING
 		Intent intent = getIntent();
